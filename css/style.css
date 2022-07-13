@@ -70,6 +70,9 @@ body{
 /**----section bike start--- */
 
 
+.bike {
+	margin-bottom: 150px;
+}
 
 .bike__inner {
 	display: flex;
@@ -180,3 +183,39 @@ body{
 
 
 /**----section bike end--- */
+
+/**----section info start--- */
+
+.info {
+	margin-bottom: 150px;
+}
+
+.info__inner {
+	display: flex;
+	justify-content: space-between;
+
+}
+.info__img {
+	margin-right: 60px;
+	flex-basis: 570px;
+	object-fit: cover;
+
+}
+.info__list {
+	flex-basis: 490px;
+}
+.info__item + .info__item{
+	padding-top: 50px;
+}
+.info__item-title {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	text-transform: uppercase;
+	margin: 0 0 10px;
+}
+.info__item-text {
+	max-width: 450px;
+}
+
+/**----section info end--- */
